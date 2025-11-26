@@ -1,57 +1,75 @@
-from reportlab.pdfgen import canvas
+# 👩‍💻 YOUR NAME - Data Science Portfolio
 
-file_path = "/mnt/data/Fiverr_Resume.pdf"
-c = canvas.Canvas(file_path)
+Hi there! I'm **Priya Mehta**, a passionate Data Scientist with a strong foundation in statistics, machine learning, and data storytelling. I love turning raw data into actionable insights and building models that solve real-world problems.
 
-# Starting coordinates
-x = 40
-y = 800
+---
 
-text = [
-"Ej Charles — Fiverr Resume",
-"",
-"SUMMARY:",
-"Highly skilled eCommerce and digital strategy specialist with expertise in niche selection, Shopify",
-"store creation, product positioning, and conversion optimization. Strong research abilities with a",
-"proven understanding of competitive markets, keyword strategies, and consumer psychology.",
-"",
-"CORE SKILLS:",
-"• Shopify Store Setup & Optimization",
-"• Branding, Store Identity & Conversion Systems",
-"• Market, Niche & Product Research",
-"• SEO, Buyer Intent Keywords & Review Mining",
-"• Product Bundling & High-Value Positioning",
-"• Competitor & Pricing Analysis",
-"• High-Converting Product Descriptions",
-"• Upsell, AOV & Retention Systems",
-"",
-"SERVICES OFFERED:",
-"• Complete Shopify Store Build",
-"• Niche Research & Category Strategy",
-"• Product Bundling Architecture",
-"• SEO & Competitor Market Breakdown",
-"• High-Converting Description Writing",
-"• Store UX/UI Trust Optimization",
-"• Supplier Research (Untapped Products)",
-"",
-"STRENGTHS:",
-"• Fast execution & strategic thinking",
-"• Ability to identify underserved profitable niches",
-"• Creates high perceived value for premium pricing",
-"• Focused on scalable long-term eCommerce success",
-"",
-"GUARANTEE:",
-"I don’t deliver random stores — I deliver strategy-based online businesses built from proven",
-"customer psychology, market demand, and optimized product positioning."
-]
+## 🧠 Skills & Technologies
 
-for line in text:
-    c.drawString(x, y, line)
-    y -= 16
-    if y < 50:
-        c.showPage()
-        y = 800
+- **Languages**: Python, SQL, R
+- **Libraries**: Pandas, NumPy, Scikit-learn, TensorFlow, Keras, XGBoost, Matplotlib, Seaborn
+- **Databases**: MySQL, PostgreSQL, MongoDB
+- **Tools**: Jupyter Notebook, Tableau, Power BI, Git, Docker, AWS (S3, EC2)
+- **Concepts**: Regression, Classification, NLP, Time Series Forecasting, A/B Testing, Clustering
 
-c.save()
+---
 
-file_path
+## 📁 Projects
+
+### 1. 📊 Customer Churn Prediction
+**Goal**: Identify customers likely to churn for a telecom company.  
+**Tech Stack**: Python, Scikit-learn, Logistic Regression, Random Forest  
+- Cleaned and explored 6K+ customer records
+- Trained multiple ML models with GridSearchCV
+- Achieved **89% accuracy** with optimized random forest
+- Deployed using Streamlit for demo purposes  
+[🔗 View Project](https://github.com/priyamehta/churn-prediction)
+
+---
+
+### 2. 🧾 Retail Sales Forecasting
+**Goal**: Forecast future sales using time series data from a chain of stores.  
+**Tech Stack**: Python, ARIMA, Facebook Prophet  
+- Implemented time series models with proper decomposition
+- Compared Prophet vs. ARIMA performance
+- Improved forecast accuracy by 15% using seasonal tuning  
+[🔗 View Project](https://github.com/priyamehta/retail-sales-forecasting)
+
+---
+
+### 3. 💬 Sentiment Analysis on Product Reviews
+**Goal**: Classify customer reviews as positive, negative, or neutral using NLP.  
+**Tech Stack**: Python, NLTK, TF-IDF, XGBoost  
+- Preprocessed 50K+ product reviews
+- Built text classification models using pipeline
+- Achieved **92% F1-score** on test data  
+[🔗 View Project](https://github.com/priyamehta/sentiment-analysis-nlp)
+
+---
+
+### 4. 📈 Airbnb Data Dashboard (Tableau)
+**Goal**: Create an interactive dashboard to explore Airbnb trends in NYC.  
+**Tech Stack**: Tableau  
+- Built dynamic visuals on pricing, availability & neighborhoods  
+[🔗 View Dashboard](https://public.tableau.com/app/profile/priyamehta/)
+
+---
+
+## 🏅 Certifications
+
+- IBM Data Science Professional Certificate (Coursera)
+- Google Advanced Data Analytics Certificate
+- Tableau Data Visualization Specialist
+
+---
+
+## 📬 Let's Connect!
+
+- 📧 Email: priyamehta.ds@gmail.com  
+- 💼 [LinkedIn](https://linkedin.com/in/priyamehta-ds)  
+- 📂 [Portfolio Website](https://priyamehta.dev)  
+- 🐙 [GitHub](https://github.com/priyamehta)
+
+---
+
+> “Data is a precious thing and will last longer than the systems themselves.” – Tim Berners-Lee
